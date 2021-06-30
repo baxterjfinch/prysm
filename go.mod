@@ -87,7 +87,7 @@ require (
 	github.com/prometheus/procfs v0.3.0 // indirect
 	github.com/prometheus/prom2json v1.3.0
 	github.com/prometheus/tsdb v0.10.0 // indirect
-	github.com/prysmaticlabs/eth2-types v0.0.0-00010101000000-000000000000
+	github.com/prysmaticlabs/eth2-types v0.0.0-20210630193854-239dbac4ea7b // indirect
 	github.com/prysmaticlabs/go-bitfield v0.0.0-20210628211147-0d89f726b4c2
 	github.com/prysmaticlabs/prombbolt v0.0.0-20210126082820-9b7adba6db7c
 	github.com/prysmaticlabs/protoc-gen-go-cast v0.0.0-20210504233148-1e141af6a0a1
@@ -138,5 +138,3 @@ replace github.com/json-iterator/go => github.com/prestonvanloon/go v1.1.7-0.201
 replace github.com/grpc-ecosystem/grpc-gateway/v2 => github.com/prysmaticlabs/grpc-gateway/v2 v2.3.1-0.20210622145107-ca3041e1b380
 
 replace github.com/ferranbt/fastssz => github.com/rauljordan/fastssz v0.0.0-20210622230010-a131010e198f
-
-replace github.com/prysmaticlabs/eth2-types => /home/radek/go/eth2-types
